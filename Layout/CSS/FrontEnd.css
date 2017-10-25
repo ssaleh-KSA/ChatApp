@@ -1,0 +1,553 @@
+body {
+	font-family:  'Droid Arabic Kufi', sans-serif;
+    overflow: hidden; /* في ال اللودينق اوفرلاي loading-overlay يلغي السكرول */
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+.Page-First {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 63px;
+    color: #cc1b1b;
+}
+.input-textarea textarea {
+    width: 100%;
+    height: 200px;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: #c1bebe;
+}
+a:hover, a:focus {
+    color: #f4e6e6;
+}
+.footer_info i {
+    font-size: 30px;
+    padding: 0 0 0 12px;
+    margin: 50px 0 0 0;
+}
+hr {
+    height: 5px;
+    background-color: #e35610;
+}
+.twitter-share-button {
+    
+}
+/* Bootstrap Css Start */
+.col-lg-1,
+.col-lg-2,
+.col-lg-3, 
+.col-lg-4, 
+.col-lg-5, 
+.col-lg-6, 
+.col-lg-7, 
+.col-lg-8, 
+.col-lg-9, 
+.col-lg-10, 
+.col-lg-11, 
+.col-lg-12 {
+    float: right;
+}
+/* Bootstrap Css End */
+/* The navbar Section Start */
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.newnav {
+	background-color: #2b215b;
+}
+.navbar-inverse {
+	background-color: #2b215b;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #f2f1f4;
+}
+.navbar-inverse .navbar-brand {
+    color: #f2f1f4;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #79bd9a;
+}
+.navbar-nav > li > .dropdown-menu {
+	padding: 0;
+    margin-left: 15px;
+}
+.navbar-nav > li > .dropdown-menu li {
+    font-size: 1.2em;
+    text-align: center;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #79bd9a;
+}
+.dropdown-menu > li > a {
+	padding: 10px 15px;
+	display: block;
+}
+.input_search {
+    width: 60%;
+    margin: 10px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* The navbar Section End */
+/* Ads_Space Start */
+.Ads_Space {
+    width: 100%;
+    background-color: #f9fafc;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    padding: 69px;
+    border: 2px solid #5a7d5d;
+}
+/* Ads_Space End */
+/* Section Button Start */
+.sections {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.sections a {
+    color: #FFF;
+}
+.main_button {
+    width: 100%;
+    background-color: #24bba2;
+    border-color: #24bba2;
+    font-size: 25px;
+}
+/* Section Button End */
+/* main_page Start */
+.main_page {
+    margin-bottom: 20px;
+}
+.Most_active_rooms {
+    background-color: #FFF;
+    width: 99%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Most_active_rooms .The_room {
+    border-bottom: 4px solid lightgrey;
+    padding: 10px;
+    background-color: #f3f3f3;
+    color: #e35610;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 2px 1px #CCC;
+}
+.Most_active_rooms .The_room h3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.Most_active_rooms .The_room a {
+    color: #FFF;
+}
+.Most_active_rooms .The_room img {
+    height: 250px;
+    width: 100%;
+}
+.Most_active_rooms .The_room hr {
+    height: 5px;
+    background-color: #e35610;
+}
+.Most_active_rooms .The_room .Room_Description {
+    display: block;
+    height: 76px;
+    overflow: hidden;
+}
+.leftSide {
+    width: 99%;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #CCC;
+}
+.leftSide hr {
+    height: 5px;
+    background-color: #e35610;
+}
+.leftSide a {
+    color: #FFF;
+}
+.leftSide .news_today {
+    border-bottom: 2px dashed #CCC;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.leftSide .news_today a {
+    color: #000;
+}
+.Add_Comment_error {
+    padding: 10px;
+    display: none;
+}
+.room_active {
+    margin-top: 25px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px #CCC;
+    border-radius: 5px;
+}
+.room_active hr {
+    height: 5px;
+    background-color: #e35610;
+}
+.room_active a {
+    color: #FFF;
+}
+.room_active .Ac_room {
+    padding: 10px;
+    box-shadow: 4px 5px 2px -1px #CCC;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #9a3b0c;
+}
+.room_favorite {
+    margin-top: 25px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px #CCC;
+    border-radius: 5px;
+}
+.room_favorite hr {
+    height: 5px;
+    background-color: #e35610;
+}
+.room_favorite a {
+    color: #FFF;
+}
+.room_favorite .Fa_room {
+    padding: 10px;
+    box-shadow: 4px 5px 2px -1px #CCC;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #9a3b0c;
+}
+/* main_page End */
+/* NickName_Login.php .page Start */
+.page {
+    background-image: url('../Images/nickname_back_Image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+}
+.NickName_box {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: rgba(3, 3, 3, 0.46);
+    padding: 0px;
+    border-radius: 5px;
+    width: 100%;
+    border-width: 70px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.67) transparent transparent transparent;
+    text-align: center;\
+}
+.NickName_box .form-control {
+    height: 42px;
+}
+.NickName_box .alert {
+    margin-bottom: 5px;
+}
+.NickName_box input, select {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.NickName_error, .membership_error, .Complaints_error {
+    padding: 5px 10px;
+    display: none;
+}
+.memebership_submit {
+    display: none;
+    color: #dcdbdb;
+    background-color: #e24848;
+    border-color: #42141b;
+}
+/* NickName_Login.php .page End */
+/* News Page .news_Art Start */
+.news_Art {
+    border-left: 6px solid #CCC;
+    border-top: 6px solid #CCC;
+    padding: 0 20px 20px 20px;
+    box-shadow: 7px 7px 2px -2px #000;
+    margin-bottom: 60px;
+}
+.news_Art hr {
+    height: 5px;
+    background-color: #e35610;
+}
+.news_Art .Share_box i {
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 13%;
+}
+.news_Date {
+    color: #e86d2f;
+}
+.news_Date span {
+    padding-left: 16px;
+}
+.news_Date a {
+    color: #ca84a5;
+}
+.News_Details {
+    word-wrap: break-word;
+    line-height: 30px;
+}
+.news_image_box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.news_Comments, .news_Add_Comment {
+    border-left: 6px solid #CCC;
+    border-top: 6px solid #CCC;
+    padding: 0 20px 20px 20px;
+    box-shadow: 7px 7px 2px -2px #000;
+    margin-bottom: 60px;
+}
+.news_Comments b {
+    float: right;
+    font-size: 20px;
+}
+.news_Add_Comment textarea {
+    height: 200px;
+    margin-bottom: 10px;
+}
+/* News Page .news_Art End */
+/* Chat.php chat_main Start */
+.chat_main {
+    width: 100%;
+    height: 500px;
+    border-left: 3px solid #CCC;
+    border-top: 3px solid #CCC;
+    box-shadow: 5px 5px 4px 2px #CCC;
+    padding: 0px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+.chat_info {
+    border: 1px solid #CCC;
+    width: 110%;
+    height: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: auto;
+}
+.user_in_chat {
+    padding: 10px;
+    border: 2px dashed #6b2727;
+    border-radius: 5px;
+    background-color: #d58a37;
+    margin-top: 5px;
+}
+/*.chat_info .user_in_chat:first-of-type {
+    opacity: 0;
+}*/
+.chat_text {
+    border: 1px solid #CCC;
+    width: 96%;
+    height: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: auto;
+    margin-right: 20px;
+}
+.user_messages {
+    background-color: #c3f4b1;
+    width: 100%;
+    padding: 11px;
+    border-radius: 5px;
+    border: 2px solid #78bb7c;
+    box-shadow: 0px 0px 3px 2px #CCC;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.users_messages {
+    background-color: #fff4f4;
+    width: 100%;
+    padding: 11px;
+    border-radius: 5px;
+    border: 2px solid #78bb7c;
+    box-shadow: 0px 0px 3px 2px #CCC;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.delete_chat {
+    color: #000;
+    cursor: pointer;
+    font-size: 15px;
+}
+.delete_chat:hover {
+    color: #715656;
+    font-weight: bold;
+}
+.Report_Abuse {
+    font-size: 11px;
+    font-weight: bold;
+    color: dodgerblue;
+    cursor: pointer;
+}
+.Report_Abuse:hover {
+    color: #86b2dc;
+    font-size: 12px;
+}
+.The_Report_Send {
+    cursor: auto;
+    font-weight: normal;
+    color: #000;
+    font-size: 11px;
+}
+.The_Report_Send:hover {
+    cursor: auto;
+    font-weight: normal;
+    color: #000;
+    font-size: 11px;
+}
+.users_messages span {
+    font-size: 20px;
+    color: #080;
+    font-weight: bold;
+}
+.msg_time {
+    font-size: 10px;
+    font-weight: bold;
+    color: #e85252;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.message_Send input {
+    width: 100%;
+    height: 59px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 8px;
+}
+.message_Send input:focus {
+    background-color: #000000;
+}
+.Emoji_Button {
+    padding: 7px;
+    width: 100%;
+    position: absolute;
+    left: 15px;
+    background-color: #d8e651;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Emoji_Button i {
+    font-size: 46px;
+}
+.button_Send input {
+    padding: 19px;
+    width: 100px;
+    position: absolute;
+    left: 12px;
+}
+.emojis_alert {
+    height: 255px;
+    background-color: #d1d1d1;
+    padding: 23px;
+    border-radius: 5px;
+    position: absolute;
+    top: 782px;
+    right: 1035px;
+    display: none;
+}
+.emojis_alert img {
+    padding: 2px;
+    cursor: pointer;
+}
+.shwo {
+    display: block;
+}
+  .hide {
+     display: none;
+  }
+/* Chat.php chat_main End */
+/* privacy.php .privacy Start */
+.privacy, .terms {
+    border: 1px solid #CCC;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.privacy, .terms ul li {
+    list-style: inside;
+}
+/* privacy.php .privacy End */
+/* Complaints.php .Complaints Start */
+.Complaints {
+    padding: 70px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 0px 4px #CCC;
+}
+.Complaints textarea {
+    height: 200px;
+    margin-bottom: 20px;
+}
+/* Complaints.php .Complaints End */
+/* Footer Section Start */
+footer .block-footer {
+    text-align: center;
+    background-color: #383838;
+    border-top: 10px solid #d58a37;
+    padding: 30px;
+}
+footer .block-footer i:hover {
+    color: #CCC;
+}
+footer .block-footer .sections-links {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer .block-footer .sections-links a {
+    color: #bbdbcc;
+    padding: 10px;
+}
+footer .block-footer .sections-links a:hover {
+    color: #CCC
+}
+.h3_footer {
+    color: #bd7a4c;
+}
+.footer_info {
+    color: #c1bebe;
+    font-size: 13px;
+}
+/* Footer Section End */

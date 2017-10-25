@@ -1,0 +1,4 @@
+SESSIONS:
+1- $_SESSION['user_membership'];
+2- $_SESSION['User_Admin'];
+------------------------------------------------------
