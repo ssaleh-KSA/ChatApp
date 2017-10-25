@@ -1,6 +1,5 @@
 # ChatApp
 
-Chats Location:
 * Registration with a pseudonym
 * Membership registration
 * Rooms for conversations
