@@ -18,12 +18,12 @@
 * Bring all reports of abuse with a button to deal with reported abuse
  
 -----------------------------------------------------------
-using:
------------------------------------------------------------
-# html
-# css
-# php
-# mysql
-# jquery
-# ajax
+# using:
+
+* html
+* css
+* php
+* mysql
+* jquery
+* ajax
 -----------------------------------------------------------
